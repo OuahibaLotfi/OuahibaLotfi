@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/EditeText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Name" />
+
+    <EditText
+        android:id="@+id/Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Price"
+        android:layout_below="@id/EditeText1" />
+
+    <EditText
+        android:id="@+id/imgurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Image URL"
+        android:layout_below="@id/Price" />
+
+    <CheckBox
+        android:id="@+id/FullOp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Options"
+        android:layout_below="@id/imgurl" />
+
+    <Button
+        android:id="@+id/ButtonUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Car"
+        android:backgroundTint="#EF6594"
+        android:layout_marginTop="300dp"
+        />
+
+
+    <Button
+        android:id="@+id/ButtonSup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Car"
+        android:backgroundTint="#EF6594"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="200dp"
+        />
+
+</RelativeLayout>
